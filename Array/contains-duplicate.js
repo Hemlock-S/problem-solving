@@ -14,5 +14,8 @@ var containsDuplicate = function(nums) {
     return false;
 };
 
+const arr = [1, 2, 3, 4, 5, 1];
+
 const result = containsDuplicate(arr);
-console.log(result);
+
+console.log(typeof result);
